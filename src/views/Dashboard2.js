@@ -461,12 +461,11 @@ function Dashboard2() {
               </Button>
             </div>
           </Col>
-          <Col md="6">
+          {/* <Col md="6">
             <Card className="card-chart">
               <CardHeader>
                 <CardTitle tag="h5">Party Wise Vote Share</CardTitle>
                 <CardTitle tag="h5">{selectedParty}</CardTitle>
-                {/* <p className="card-category">Line Chart with Points</p> */}
               </CardHeader>
 
               <CardBody>
@@ -484,14 +483,13 @@ function Dashboard2() {
                 </div>
               </CardFooter>
             </Card>
-          </Col>
-          <Col md="6">
+          </Col> */}
+          {/* <Col md="6">
             <Card className="card-chart">
               <CardHeader>
                 <CardTitle tag="h5">Party Wise Booth Win</CardTitle>
                 <CardTitle tag="h5"></CardTitle>
                 <CardTitle tag="h5">{selectedParty}</CardTitle>
-                {/* <p className="card-category">Line Chart with Points</p> */}
               </CardHeader>
 
               <CardBody>
@@ -509,7 +507,7 @@ function Dashboard2() {
                 </div>
               </CardFooter>
             </Card>
-          </Col>
+          </Col> */}
         </Row>
         <Row>
           <Col md="12">
