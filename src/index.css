@@ -1,0 +1,38 @@
+.circlestyle{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+
+.dflex{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+.col1{
+    background-color:#e3e3e3 ;
+}
+.col2{
+    background-color:#4acccd ;
+}
+.col3{
+    background-color:#fcc468 ;
+}
+.col4{
+    background-color:#000 ;
+}
+.col5{
+    background-color:#ef8157 ;
+}
+.col6{
+    background-color:#85a ;
+}
+.col7{
+    background-color:#4da ;
+}
+.col8{
+    background-color:#fda ;
+}
+.col9{
+    background-color:#e8a ;
+}
