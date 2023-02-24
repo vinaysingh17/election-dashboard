@@ -36,7 +36,7 @@ function Sidebar(props) {
     if (navigator.platform.indexOf("Win") > -1) {
       ps = new PerfectScrollbar(sidebar.current, {
         suppressScrollX: true,
-        suppressScrollY: false
+        suppressScrollY: false,
       });
     }
     return function cleanup() {
@@ -57,14 +57,14 @@ function Sidebar(props) {
           className="simple-text logo-mini"
         >
           <div className="logo-img">
-            <img src={logo} alt="react-logo" />
+            {/* <img src={logo} alt="react-logo" /> */}
           </div>
         </a>
         <a
           href="https://www.creative-tim.com"
           className="simple-text logo-normal"
         >
-          Creative Tim
+          Prajaniti
         </a>
       </div>
       <div className="sidebar-wrapper" ref={sidebar}>

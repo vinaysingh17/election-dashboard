@@ -1,4 +1,4 @@
-export const BASE_URL = "http://localhost:5000";
+export const BASE_URL = "https://election-back.onrender.com";
 export const parseIt = (data) => JSON.parse(data);
 
 export const uploadVoterList = (data, callBack) => {
